@@ -5,7 +5,7 @@
         </h1>
         <nav class="flex flex-col gap-1 items-center">
             <ul class="join">
-                <li>
+                <li class="tooltip tooltip-bottom" data-tip="Protector">
                     <a href="{{ route('stories.index', ['identity' => 1]) }}"
                         class="btn btn-ghost shadow btn-square btn-xl join-item">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -17,7 +17,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="tooltip tooltip-bottom" data-tip="Provider">
                     <a href="{{ route('stories.index', ['identity' => 2]) }}"
                         class="btn btn-ghost shadow btn-square btn-xl join-item">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -38,7 +38,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="tooltip tooltip-bottom" data-tip="Lover">
                     <a href="{{ route('stories.index', ['identity' => 3]) }}"
                         class="btn btn-ghost shadow btn-square btn-xl join-item">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -49,7 +49,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="tooltip tooltip-bottom" data-tip="Believer">
                     <a href="{{ route('stories.index', ['identity' => 4]) }}"
                         class="btn btn-ghost shadow btn-square btn-xl join-item">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
